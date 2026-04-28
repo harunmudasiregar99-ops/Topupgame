@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+.game-list, .nominal-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.game, .nominal-list div {
+  background: #1e293b;
+  padding: 10px;
+  cursor: pointer;
+}
+.active {
+  border: 2px solid green;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+}
